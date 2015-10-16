@@ -1,12 +1,5 @@
 package no.westerdals.heiola13;
-
-import org.jboss.weld.environment.se.Weld;
-import org.jboss.weld.environment.se.WeldContainer;
-import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
-import no.westerdals.heiola13.ServiceQualifier;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,7 +10,7 @@ public class MainService {
     @Inject
     private Users interfaceService;
 
-    @Inject @ServiceQualifier
+    @Inject
     private Users qualifierService;
 
     @Inject
@@ -34,6 +27,21 @@ public class MainService {
         for(Bruker b : list){
             System.out.println(b.getId() + "\t|\t" + b.getEmail());
         }
+        System.out.println("---------------------------------");
+
+        qualifierService.updateUser(2, "ny@mail.no", "aaaylmao", Type.TEACHER);
+        list = qualifierService.getAllUsers();
+        for(Bruker b : list){
+            System.out.println(b.getId() + "\t|\t" + b.getEmail());
+        }
+        System.out.println("---------------------------------");
+        qualifierService.deleteUser(2);
+
+        list = qualifierService.getAllUsers();
+        for(Bruker b : list){
+            System.out.println(b.getId() + "\t|\t" + b.getEmail());
+        }
+
     }
 
 }

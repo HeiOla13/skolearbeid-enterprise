@@ -1,5 +1,6 @@
 package no.westerdals.heiola13;
 
+import javax.enterprise.inject.Alternative;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +8,7 @@ import java.util.List;
 /**
  * Created by Ola on 08.10.2015.
  */
-
+@Alternative
 public class UsersList implements Users {
     int idCounter = 0;
     List<Bruker> users = new ArrayList<>();

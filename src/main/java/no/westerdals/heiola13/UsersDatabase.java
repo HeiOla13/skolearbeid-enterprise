@@ -1,5 +1,6 @@
 package no.westerdals.heiola13;
 
+import javax.enterprise.inject.Alternative;
 import javax.enterprise.inject.Default;
 import java.sql.*;
 import java.util.ArrayList;
@@ -9,7 +10,8 @@ import java.util.List;
 /**
  * Created by Ola on 08.10.2015.
  */
-@ServiceQualifier
+
+@Alternative
 public class UsersDatabase implements Users{
     public static Connection con;
 
