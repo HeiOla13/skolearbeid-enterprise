@@ -1,6 +1,5 @@
 package no.westerdals.heiola13;
 
-import java.sql.*;
 import java.util.List;
 
 public interface Users
