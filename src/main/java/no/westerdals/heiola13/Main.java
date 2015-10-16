@@ -11,10 +11,12 @@ import javax.inject.Inject;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("1. Opprett bruker\n2. Oppdater eksisterende bruker\n3. Hent bruker(basert på id)\n4. Hent alle brukere\n5. Slett bruker");
+        //System.out.println("1. Opprett bruker\n2. Oppdater eksisterende bruker\n3. Hent bruker(basert på id)\n4. Hent alle brukere\n5. Slett bruker");
         WeldContainer container = new Weld().initialize();
         Instance<MainService> inst = container.instance().select(MainService.class);
         MainService mainService = inst.get();
-        mainService.
+        mainService.execute();
+
+        container.instance().destroy(mainService);
     }
 }

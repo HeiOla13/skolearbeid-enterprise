@@ -36,12 +36,12 @@ public class UsersTest
     public void testUsersList()
     {
         UsersList us = new UsersList();
-        us.addUser("test@test.no", "passord", "Student");
+        us.addUser(new Bruker("test@test.no", "passord", Type.STUDENT));
         assertNotNull(us.getUser(1));
         Bruker b = us.getUser(1);
-        us.updateUser(b.id, "test@nytest.no", "passord123", "Teacher");
+        us.updateUser(b.getId(), "test@nytest.no", "passord123", Type.TEACHER);
         assertEquals("test@nytest.no", us.getUser(1).email);
-        us.addUser("endaentest@test.no", "pass", "Student");
+        us.addUser(new Bruker("endaentest@test.no", "pass", Type.TEACHER));
         assertEquals(us.getAllUsers().size(), 2);
         us.deleteUser(1);
         assertEquals(us.getAllUsers().size(), 1);
@@ -54,7 +54,7 @@ public class UsersTest
         for(int i = 1; i <= 15; i++){
             us.deleteUser(i);
         }
-        us.addUser("test@test.no", "passord", "Student");
+        us.addUser(new Bruker("test@test.no", "passord", Type.STUDENT));
         assertNotNull(us.getAllUsers());
     }
 }
