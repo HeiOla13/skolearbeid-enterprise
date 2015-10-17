@@ -4,8 +4,8 @@
         http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
        bean-discovery-mode="all">
 
-    <alternatives>
+    <!--<alternatives>
         <class>no.westerdals.heiola13.UsersDatabase</class>
-        <!--<class>no.westerdals.heiola13.UsersList</class>-->
-    </alternatives>
+        <class>no.westerdals.heiola13.UsersList</class>
+    </alternatives>-->
 </beans>

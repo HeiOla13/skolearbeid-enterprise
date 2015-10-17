@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by Ola on 08.10.2015.
  */
-@Alternative
+@ListQualifier
 public class UsersList implements Users {
     int idCounter = 0;
     List<Bruker> users = new ArrayList<>();

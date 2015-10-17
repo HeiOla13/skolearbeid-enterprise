@@ -3,8 +3,15 @@ package no.westerdals.heiola13;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.hibernate.validator.HibernateValidator;
+import org.junit.Before;
 
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
 import java.sql.SQLException;
+import java.util.Set;
 
 /**
  * Unit test for simple Users.
@@ -12,6 +19,14 @@ import java.sql.SQLException;
 public class UsersTest
     extends TestCase
 {
+
+    private static Validator validator;
+
+    @Before
+    public void setup(){
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        validator = factory.getValidator();
+    }
     /**
      * Create the test case
      *
@@ -56,5 +71,30 @@ public class UsersTest
         }
         us.addUser(new Bruker("test@test.no", "passord", Type.STUDENT));
         assertNotNull(us.getAllUsers());
+    }
+
+    public void testValidEmail(){
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        validator = factory.getValidator();
+        Bruker b = new Bruker("", "passoRd1", Type.TEACHER);
+        Set<ConstraintViolation<Bruker>> constraintViolations = validator.validate(b);
+        assertEquals(1, constraintViolations.size());
+        assertEquals("This is not a valid email-address", constraintViolations.iterator().next().getMessage());
+    }
+
+    public void testPasswordTooShort(){
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        validator = factory.getValidator();
+
+        Bruker b = new Bruker("ola_s_h@hotmail.com", "pA1s", Type.TEACHER);
+        Set<ConstraintViolation<Bruker>> constraintViolations = validator.validate(b);
+        assertEquals(1, constraintViolations.size());
+        assertEquals("Invalid password", constraintViolations.iterator().next().getMessage());
+    }
+
+    public void testEntityManager(){
+        UsersJPA jpa = new UsersJPA();
+        jpa.addUser(new Bruker("test123123@test.no", "passoRd1", Type.TEACHER));
+        jpa.closeEntityManager();
     }
 }

@@ -11,7 +11,7 @@ import java.util.List;
  * Created by Ola on 08.10.2015.
  */
 
-@Alternative
+@DatabaseQualifier
 public class UsersDatabase implements Users{
     public static Connection con;
 

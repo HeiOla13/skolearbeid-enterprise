@@ -10,7 +10,7 @@ public class MainService {
     @Inject
     private Users interfaceService;
 
-    @Inject
+    @Inject @DatabaseQualifier
     private Users qualifierService;
 
     @Inject

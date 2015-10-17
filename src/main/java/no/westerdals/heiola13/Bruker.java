@@ -2,6 +2,8 @@ package no.westerdals.heiola13;
 
 import javax.enterprise.inject.Model;
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 
 /**
  * Created by Ola on 05.10.2015.
@@ -11,11 +13,22 @@ enum Type {
     TEACHER
 }
 @Entity
+@NamedQueries({
+        @NamedQuery(name="Bruker.findAll", query="SELECT b FROM Bruker b"),
+        @NamedQuery(name="Bruker.findByID", query="SELECT b FROM Bruker b WHERE b.id = :id")
+})
 public class Bruker {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @NotNull
+    @Pattern(regexp="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\."
+            +"[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@"
+            +"(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?",
+            message="This is not a valid email-address")
     String email;
+    @NotNull
+    @Pattern(regexp = "((?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{6,20})", message = "Invalid password")
     String passord;
     Type type;
 
