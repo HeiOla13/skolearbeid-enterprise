@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a2c574-54b4-40fa-9611-5f28bd87bac8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersJPA.java" />
-      <change type="MOVED" beforePath="C:\Users\Ola\IdeaProjects\skolearbeid\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_2_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/Bruker.class" afterPath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/Bruker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/MainService.class" afterPath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/MainService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/Type.class" afterPath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/Type.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/UsersDatabase.class" afterPath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/UsersDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/UsersList.class" afterPath="$PROJECT_DIR$/target/classes/no/westerdals/heiola13/UsersList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/no/westerdals/heiola13/UsersTest.class" afterPath="$PROJECT_DIR$/target/test-classes/no/westerdals/heiola13/UsersTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Bruker.java" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Bruker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/MainService.java" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/MainService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersList.java" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/no/westerdals/heiola13/UsersTest.java" afterPath="$PROJECT_DIR$/src/test/java/no/westerdals/heiola13/UsersTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skolearbeid.iml" afterPath="$PROJECT_DIR$/skolearbeid.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/LocationFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Subject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="skolearbeid.iws" />
@@ -96,47 +79,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseQualifier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/DatabaseQualifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/no/westerdals/heiola13/UsersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74111676">
-              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="72" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Location.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationFinder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/LocationFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20870535">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,11 +150,11 @@
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1445088812463" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
-                <marker date="1445088812463" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
-                <marker date="1445088812463" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
-                <marker date="1445088812463" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
-                <marker date="1445088812463" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
+                <marker date="1445166533893" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
+                <marker date="1445166533893" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
+                <marker date="1445166533893" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
+                <marker date="1445166533893" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
+                <marker date="1445166533893" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -212,6 +203,9 @@
         <option value="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersJPA.java" />
         <option value="$PROJECT_DIR$/src/test/java/no/westerdals/heiola13/UsersTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/LocationFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Subject.java" />
       </list>
     </option>
   </component>
@@ -274,8 +268,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -396,7 +388,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -857,12 +851,13 @@
       <workItem from="1444989094639" duration="16402000" />
       <workItem from="1445010132277" duration="1773000" />
       <workItem from="1445077646112" duration="473000" />
-      <workItem from="1445088754318" duration="6982000" />
+      <workItem from="1445088754318" duration="7045000" />
+      <workItem from="1445166483437" duration="2390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57915000" />
+    <option name="totallyTimeSpent" value="60368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -870,23 +865,20 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3300866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25586355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -896,8 +888,11 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -923,17 +918,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/no/westerdals/heiola13/UsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1445088812463" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
-            <marker date="1445088812463" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
+            <marker date="1445166533893" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
+            <marker date="1445166533893" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -980,10 +1003,6 @@
           <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -994,76 +1013,11 @@
           <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1445088812463" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
-            <marker date="1445088812463" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Bruker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/no/westerdals/heiola13/UsersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/UsersDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1445088812463" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
-            <marker date="1445088812463" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
+            <marker date="1445166533893" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
+            <marker date="1445166533893" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1110,11 +1064,11 @@
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1445088812463" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
-            <marker date="1445088812463" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
+            <marker date="1445166533893" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
+            <marker date="1445166533893" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1161,11 +1115,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1445088812463" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
-            <marker date="1445088812463" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
+            <marker date="1445166533893" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
+            <marker date="1445166533893" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1297,14 +1251,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/init.sql">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Users.java">
@@ -1355,11 +1308,11 @@
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1445088812463" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
-            <marker date="1445088812463" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
-            <marker date="1445088812463" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
-            <marker date="1445088812463" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
+            <marker date="1445166533893" expanded="true" signature="799:818" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1451:1567" placeholder="UPDATE USERS..." />
+            <marker date="1445166533893" expanded="true" signature="1841:1992" placeholder="INSERT INTO ..." />
+            <marker date="1445166533893" expanded="true" signature="2386:2417" placeholder="SELECT * FRO..USERS..." />
+            <marker date="1445166533893" expanded="true" signature="2950:2979" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1416,14 +1369,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/no/westerdals/heiola13/UsersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74111676">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="72" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/LocationFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/westerdals/heiola13/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20870535">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
